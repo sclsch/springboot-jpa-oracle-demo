@@ -19,7 +19,9 @@ public class DynastyController {
 	@RequestMapping("/findAll")
 	public List<Dynasty> findAll() { 
 		List<Dynasty> dynastys = dynastyRepository.findAll(); 
-		return dynastys; 
+		return dynastys;
+
+
 	}
 
 	@RequestMapping("/hello")
