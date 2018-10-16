@@ -20,8 +20,6 @@ public class DynastyController {
 	public List<Dynasty> findAll() { 
 		List<Dynasty> dynastys = dynastyRepository.findAll(); 
 		return dynastys;
-
-
 	}
 
 	@RequestMapping("/hello")
